@@ -46,6 +46,7 @@
 
 <script>
   import IncomeExpenses from '@/store/IncomeExpenses'
+
   export default {
     data(){
       return{
@@ -82,12 +83,14 @@
   padding: 20px; 
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
-  tr:nth-child(even){background-color: #f2f2f2;}
-  tr:hover {background-color: #ddd;}
-  th{background-color: rgb(245, 190, 227)}; 
+  tr:nth-child(even){background-color: #e6e1e1;}
+  tr:hover {background-color:#a3dce9;}
+  th{background-color: #fbaa82;
+  color: white}; 
   p{
     font-size: 1.2em;
-    font-weight: bold
+    font-weight: bold;
+    color: rgb(230, 70, 70);
   }
 }
 table{

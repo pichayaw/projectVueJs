@@ -19,10 +19,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 3px 3px rgb(187, 55, 77);
+    text-shadow: 3px 3px #fbaa82;
     font-size: 3em;
-
+    color: #0B5D69;
 }
 </style>>

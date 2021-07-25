@@ -19,7 +19,7 @@
         <input type="text" v-model="form.description">
     </div><br>
   
-    <div class="submit">
+    <div>
       <button @click="addIncomeExpenses">Submit</button>
     </div>
     
@@ -67,17 +67,19 @@ export default {
   width: 700px;
   height: 200px;
   padding: 5px;
-  border: 2px solid rgb(48, 47, 95); 
-  background-color: rgb(247, 247, 179); 
+  background-color: #73A2AC; 
+  color: white;
   padding: 30px;
   font-family: Arial, Helvetica, sans-serif;
 p{
-  color: rgb(244, 40, 104);
+  color: #fada95;
 }
-.submit{
+button{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   font-weight: bold;
+  background-color: #fada95;
+  color: #73A2AC;
 }
 }
 </style>>
